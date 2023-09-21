@@ -196,6 +196,7 @@ const handleUpdateButtonClick = () => {
         alert('Preços atualizados com sucesso!');
       } else {
         alert('Erro ao atualizar preços.');
+        console.log(data);
       }
     })
     .catch((error) => {
